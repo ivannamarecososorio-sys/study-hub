@@ -1,0 +1,9 @@
+{
+  "name": "Study Hub",
+  "short_name": "Study Hub",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fff0f6",
+  "theme_color": "#df5f98",
+  "icons": []
+}
