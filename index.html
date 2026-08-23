@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Study Hub 🎀</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Study Hub 🎀</h1>
+
+        <p class="subtitle">
+            Organiza tus estudios y alcanza tus metas ✨
+        </p>
+
+        <div class="stats">
+            <div class="stat">
+    <div class="stat-number" id="racha">🔥 0</div>
+    <p>Racha</p>
+</div>
+
+            <div class="stat">
+    <div class="stat-number" id="progreso">0%</div>
+    <p>Progreso</p>
+
+    <div class="barra">
+        <div class="barra-relleno" id="barra-relleno"></div>
+    </div>
+</div>
+
+    
+        </div>
+
+        <div class="card">
+
+            <h2>📚 Mis tareas</h2>
+
+            <input 
+                type="text" 
+                id="tarea" 
+                placeholder="Escribe una tarea..."
+            >
+
+            <button id="agregar">
+                ➕ Agregar
+            </button>
+
+            <ul id="lista"></ul>
+
+        </div>
+
+        <div class="card">
+
+            <h2>⏱️ Study Timer</h2>
+
+            <div id="temporizador">
+                25:00
+            </div>
+
+            <button id="iniciar">
+                ▶️ Empezar
+            </button>
+
+            <button id="reiniciar">
+                🔄 Reiniciar
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
