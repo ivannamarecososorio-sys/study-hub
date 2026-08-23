@@ -41,6 +41,27 @@
         </div>
 
         <div class="card">
+            <div class="card">
+    <h2>🎯 Mis metas de hoy</h2>
+
+    <div class="meta">
+        <span>📚 Completar 3 tareas</span>
+        <span id="metaTareas">0 / 3</span>
+    </div>
+
+    <div class="barra">
+        <div class="barra-relleno" id="barraMetas"></div>
+    </div>
+
+    <p id="mensajeMeta">¡Vamos, tú puedes! 🎀</p>
+</div>
+<div class="card">
+    <h2>📅 Esta semana</h2>
+
+    <div class="semana" id="semana"></div>
+</div>
+
+</div>
 
             <h2>📚 Mis tareas</h2>
 
@@ -60,23 +81,28 @@
 
         <div class="card">
 
-            <h2>⏱️ Study Timer</h2>
+    <h2>⏱️ Study Timer</h2>
 
-            <div id="temporizador">
-                25:00
-            </div>
-
-            <button id="iniciar">
-                ▶️ Empezar
-            </button>
-
-            <button id="reiniciar">
-                🔄 Reiniciar
-            </button>
-
-        </div>
-
+    <div class="tiempos">
+        <button class="boton-tiempo" data-tiempo="900">15 min</button>
+        <button class="boton-tiempo" data-tiempo="1500">25 min</button>
+        <button class="boton-tiempo" data-tiempo="2700">45 min</button>
+        <button class="boton-tiempo" data-tiempo="3600">60 min</button>
     </div>
+
+    <div id="temporizador">
+        25:00
+    </div>
+
+    <button id="iniciar">
+        ▶️ Empezar
+    </button>
+
+    <button id="reiniciar">
+        🔄 Reiniciar
+    </button>
+
+</div>
 
     <script src="script.js"></script>
 
