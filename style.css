@@ -21,6 +21,10 @@ h1 {
     color: #df5f98;
     font-weight: bold;
     text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 }
 
