@@ -22,8 +22,11 @@ h1 {
     color: #df5f98;
     font-weight: bold;
     text-align: center;
-    width: 100%;
+    display: block;
     margin: 0 auto 20px auto;
+    width: 100%;
+    position: relative;
+    left: 0;
 }
 
 .subtitle {
